@@ -2,7 +2,7 @@
 
 A simple, interactive counter built with HTML, CSS, and JavaScript. This app allows you to increment, decrement, and reset a counter, with an option to customize the increment/decrement value.
 
-[![Counter App](https://img.shields.io/badge/Counter-App-blue.svg)](https://github.com/your-username/counter-app)
+[![Counter App](https://img.shields.io/badge/Counter-App-blue.svg)](https://counter-gamma-blush.vercel.app/)
 
 ## 🚀 **Features**
 
