@@ -24,8 +24,8 @@ A simple, interactive counter built with HTML, CSS, and JavaScript. This app all
 6. Adjust the increment/decrement value with the input box below the counter.
 
 ## 🔥 **Project Preview**
+![counter](https://github.com/user-attachments/assets/d181935e-7f9d-413b-a6b2-f03819f76cd1)
 
-![Counter App Demo](https://your-demo-image-url.com)
 
 ## 📁 **Project Structure**
 
