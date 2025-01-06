@@ -43,7 +43,7 @@ You can run the counter app locally by following these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/counter-app.git
+    git clone https://github.com/manishkumar8312/counter-app.git
     ```
 2. Navigate to the project folder:
     ```bash
