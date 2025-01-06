@@ -15,7 +15,7 @@ A simple, interactive counter built with HTML, CSS, and JavaScript. This app all
 
 1. Clone or download the repository:
     ```bash
-    git clone https://github.com/your-username/counter-app.git
+    git clone https://github.com/manishkumar8312/counter-app.git
     ```
 2. Open `index.html` in any browser to start using the app.
 3. Use the **+** button to increase the counter.
