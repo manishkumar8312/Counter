@@ -1,21 +1,30 @@
-const count = document.querySelector(".count");
-const minusBtn = document.querySelector(".minus-btn");
-const plusBtn = document.querySelector(".plus-btn");
-const changeBy = document.querySelector(".changeBy");
-const resetBtn = document.querySelector(".reset-btn");
+document.addEventListener("DOMContentLoaded", () => {
+  const countElement = document.querySelector(".count");
+  const minusButton = document.querySelector(".minus-btn");
+  const plusButton = document.querySelector(".plus-btn");
+  const resetButton = document.querySelector(".reset-btn");
+  const changeByInput = document.querySelector(".changeBy");
 
-minusBtn.addEventListener("click", () => {
-  const countValue = parseInt(count.innerText);
-  const changeByValue = parseInt(changeBy.value);
-  count.innerText = countValue - changeByValue;
-});
+  let count = 0;
 
-plusBtn.addEventListener("click", () => {
-  const countValue = parseInt(count.innerText);
-  const changeByValue = parseInt(changeBy.value);
-  count.innerText = countValue + changeByValue;
-});
+  function updateCount() {
+    countElement.textContent = count;
+  }
 
-resetBtn.addEventListener("click", () => {
-  count.innerText = 0;
+  minusButton.addEventListener("click", () => {
+    const changeBy = parseInt(changeByInput.value, 10) || 1;
+    count -= changeBy;
+    updateCount();
+  });
+
+  plusButton.addEventListener("click", () => {
+    const changeBy = parseInt(changeByInput.value, 10) || 1;
+    count += changeBy;
+    updateCount();
+  });
+
+  resetButton.addEventListener("click", () => {
+    count = 0;
+    updateCount();
+  });
 });

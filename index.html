@@ -14,13 +14,18 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1 class="count">0</h1>
-    <button class="minus-btn">-</button>
-    <button class="plus-btn">+</button>
-    <div>
-      Increment/Decrement by: <input class="changeBy" type="number" value="1" />
-    </div>
-    <button class="reset-btn">Reset</button>
-    <h4> Made by: Manish Kumar Sah</h4>
+    <main>
+      <h1 class="count">0</h1>
+      <div class="controls">
+        <button class="minus-btn">-</button>
+        <button class="plus-btn">+</button>
+      </div>
+      <div class="input-container">
+        <label for="changeBy">Increment/Decrement by:</label>
+        <input id="changeBy" class="changeBy" type="number" value="1" />
+      </div>
+      <button class="reset-btn">Reset</button>
+    </main>
+    <h3 align="center" class="manish">Made by: Manish Kumar Sah</h3>
   </body>
 </html>
