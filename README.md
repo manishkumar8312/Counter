@@ -1,81 +1,85 @@
-# 🧮 **Counter Application**
+# **Counter Application**
 
-A simple, interactive counter built with HTML, CSS, and JavaScript. This app allows you to increment, decrement, and reset a counter, with an option to customize the increment/decrement value.
+A simple and interactive counter built using HTML, CSS, and JavaScript. This application allows users to increment, decrement, and reset a counter, along with the flexibility to customize the step value for each operation.
 
 [![Counter App](https://img.shields.io/badge/Counter-App-blue.svg)](https://counter-gamma-blush.vercel.app/)
 
-## 🚀 **Features**
+## **Features**
 
-- ➕ Increment the counter by a specified value.
-- ➖ Decrement the counter by a specified value.
-- 🔄 Reset the counter to zero.
-- 🔧 Change the increment/decrement value dynamically with an input box.
+* Increment the counter by a user-defined value.
+* Decrement the counter by a user-defined value.
+* Reset the counter to zero.
+* Dynamically adjust the increment/decrement value through an input field.
 
-## 🖥️ **How to Use**
+## **How to Use**
 
 1. Clone or download the repository:
-    ```bash
-    git clone https://github.com/manishkumar8312/counter-app.git
-    ```
-2. Open `index.html` in any browser to start using the app.
-3. Use the **+** button to increase the counter.
-4. Use the **-** button to decrease the counter.
-5. Click **Reset** to set the counter back to zero.
-6. Adjust the increment/decrement value with the input box below the counter.
 
-## 🔥 **Project Preview**
+   ```bash
+   git clone https://github.com/manishkumar8312/counter-app.git
+   ```
+2. Open `index.html` in any browser.
+3. Click the **+** button to increase the counter.
+4. Click the **-** button to decrease the counter.
+5. Use the **Reset** button to return the counter to zero.
+6. Modify the step value using the input box provided below the counter.
+
+## **Project Preview**
+
 ![counter](https://github.com/user-attachments/assets/d181935e-7f9d-413b-a6b2-f03819f76cd1)
 
-
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```bash
 counter-app/
 │
-├── index.html        # Main HTML structure of the counter app
-├── style.css         # Styles for the counter UI
-└── script.js         # JavaScript logic to control counter functionality
+├── index.html        # Main structure of the application
+├── style.css         # Styles for the user interface
+└── script.js         # JavaScript logic for counter functionality
 ```
 
-## 📜 **Installation**
+## **Installation**
 
-You can run the counter app locally by following these steps:
+To run the application locally:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/manishkumar8312/counter-app.git
-    ```
+
+   ```bash
+   git clone https://github.com/manishkumar8312/counter-app.git
+   ```
 2. Navigate to the project folder:
-    ```bash
-    cd counter-app
-    ```
-3. Open `index.html` in any web browser to run the app.
 
-## ⚙️ **Customization**
+   ```bash
+   cd counter-app
+   ```
+3. Open `index.html` in your preferred web browser.
 
-- **Change the Counter Value:** Modify the `<h1 class="count">0</h1>` in `index.html` to set a different initial value.
-- **Change the Increment/Decrement Value:** Adjust the `value="1"` in the `<input class="changeBy" type="number" value="1" />` to your preferred starting value.
+## **Customization**
 
-## 🛠️ **Tech Stack**
+* **Initial Counter Value:**
+  Modify the `<h1 class="count">0</h1>` element in `index.html`.
 
-- **HTML5** - For structuring the app.
-- **CSS3** - For styling the user interface.
-- **JavaScript** - For implementing the logic and making the app interactive.
+* **Initial Increment/Decrement Value:**
+  Update the `value="1"` attribute in the `<input class="changeBy" type="number" value="1" />` field.
 
-## 🤝 **Contributing**
+## **Tech Stack**
 
-Feel free to fork this project and submit issues or pull requests. Here's how you can contribute:
+* **HTML5** – Application structure
+* **CSS3** – Styling and layout
+* **JavaScript** – Logic and interactivity
+
+## **Contributing**
+
+Contributions are welcome. To contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-name`).
 3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Create a new Pull Request.
+4. Push the branch (`git push origin feature-name`).
+5. Open a Pull Request.
 
-## 📜 **License**
+## **License**
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
-
-Thank you for checking out this project! ⭐ If you like the app, don't forget to give it a ⭐️ on GitHub.
